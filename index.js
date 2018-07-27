@@ -21,7 +21,7 @@ function nameToAttributes(parameter){
 }
 
 function nameIsFromHometown(Object){
-  return`${Object[name]} is from ${Object[hometowm]}`;
+  return`${[name]} is from ${[hometowm]}`;
 }
 
 function attributesToPhrase(parameter){
