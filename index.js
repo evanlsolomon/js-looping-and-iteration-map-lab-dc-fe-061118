@@ -21,6 +21,7 @@ function nameToAttributes(parameter){
 }
 
 function nameIsFromHometown(Object){
+  debugger;
   return`${[name]} is from ${[hometowm]}`;
 }
 
