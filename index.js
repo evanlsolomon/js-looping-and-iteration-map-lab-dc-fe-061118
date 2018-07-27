@@ -21,6 +21,7 @@ function nameToAttributes(parameter){
 }
 
 function nameIsFromHometown(driver){
+  debugger
   return driver.name +' is from '+ driver.hometowm;
 }
 
