@@ -20,4 +20,4 @@ function nameToAttributes(parameter){
   return parameter.map(nameSplitter);
 }
 
-function attributesToPhrase()
+function attributesToPhrase(name, hometowm)
