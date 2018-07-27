@@ -2,16 +2,15 @@
 const drivers = [];
 
 function lowerCaseNames(x) {
-debugger;
 return x.toLowerCase();
 }
 
 function lowerCaseDrivers(anything){
-
   return anything.map(lowerCaseNames);
 }
 
-function splitNames(parameter){
+function nameSplitter(name){
+  firstName = name.split
   return parameter.split(" ");
 }
 
