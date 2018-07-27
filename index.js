@@ -17,7 +17,7 @@ function nameSplitter(name){
 
 function nameToAttributes(anything){
 drivers.push('Bobby Smith', 'Sammy Watkins', 'Sally Jenkins', 'Annette Sawyer', 'Sarah Hucklebee', 'bobby ridge');
-  return anything.map(splitNames);
+  return anything.map(nameSplitter);
 }
 
 
