@@ -20,9 +20,8 @@ function nameToAttributes(parameter){
   return parameter.map(nameSplitter);
 }
 
-function nameIsFromHometown(Object){
-  debugger;
-  return`${[name]} is from ${[hometowm]}`;
+function nameIsFromHometown(driver){
+  return driver.name +' is from '+ driver.hometowm;
 }
 
 function attributesToPhrase(parameter){
