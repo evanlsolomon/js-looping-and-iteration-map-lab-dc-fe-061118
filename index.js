@@ -12,12 +12,12 @@ function lowerCaseDrivers(anything){
 function nameSplitter(name){
   firstName = name.split(" ")[0];
   lastName = name.split(" ")[1];
-  return {firstName:firstName, lastName:lastName}
+  return {firstName:firstName, lastName:lastName};
 }
 
-function nameToAttributes(anything){
-drivers.push('Bobby Smith', 'Sammy Watkins', 'Sally Jenkins', 'Annette Sawyer', 'Sarah Hucklebee', 'bobby ridge');
-  return anything.map(nameSplitter);
+function nameToAttributes(parameter){
+
+  return parameter.map(nameSplitter);
 }
 
 
