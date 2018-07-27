@@ -20,10 +20,10 @@ function nameToAttributes(parameter){
   return parameter.map(nameSplitter);
 }
 
-function nameIsFromHometown(name, hometowm){
-  return `${name} is from ${hometowm}`;
+function nameIsFromHometown(Object){
+  return`${Object[name]} is from ${Object[hometowm]}`;
 }
 
-function attributesToPhrase(){
-  return `${name} is from ${hometowm}`
+function attributesToPhrase(parameter){
+  return parameter.map(nameIsFromHometown);
 }
