@@ -12,6 +12,7 @@ function lowerCaseDrivers(anything){
 function nameSplitter(name){
   firstName = name.split(" ")[0];
   lastName = name.split(" ")[1];
+  return {firstName:firstName, lastName:lastName}
 }
 
 function nameToAttributes(anything){
