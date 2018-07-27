@@ -10,8 +10,8 @@ function lowerCaseDrivers(anything){
 }
 
 function nameSplitter(name){
-  firstName = name.split
-  return parameter.split(" ");
+  firstName = name.split(" ")[0];
+  lastName = name.split(" ")[1];
 }
 
 function nameToAttributes(anything){
