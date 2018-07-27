@@ -2,11 +2,12 @@
 const drivers = [];
 
 function lowerCaseNames(x) {
+debugger;
 return x.toLowerCase();
 }
 
 function lowerCaseDrivers(anything){
-debugger;
+
   return anything.map(lowerCaseNames);
 }
 
