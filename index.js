@@ -21,5 +21,5 @@ function nameToAttributes(parameter){
 }
 
 function attributesToPhrase(name, hometowm){
-  
+  return `$name is 
 }
